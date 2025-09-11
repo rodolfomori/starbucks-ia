@@ -28,15 +28,13 @@
 #CSS
 - [x]Seletor
     [x] Tag (Ex: h2, img, div...)
-    [ ] class (apelido)
+    [x] class (apelido)
 - [x]Propriedade
 - [x]Valor
 
-
-
-
-
 #JAVASCRIPT
 
-- []Variáveis
-- []Funções 
+- [x]Variáveis
+- [x]Funções 
+- []Algoritmo
+- []Lógica de Programacão
