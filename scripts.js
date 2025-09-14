@@ -16,8 +16,8 @@
     Algoritmo
     [x] Saber quem é o botão
     [x] Saber quando o botão foi clicado
-    [ ] Saber quem é Bola colorida
-    [ ] Trocar a cor da Bola colorida  
+    [x] Saber quem é Bola colorida
+    [x] Trocar a cor da Bola colorida  
     [ ] Saber quem é o copo
     [ ] Trocar a imagem do copo
       
@@ -26,10 +26,15 @@
 
 */
 let circulo = document.querySelector(".circulo")
+let imagemCopo = document.querySelector(".imagem-copo")
 
 function mudarCor(cor){
 
     circulo.style.backgroundColor = cor
+}
+
+function trocaImagem(imagem){
+    imagemCopo.src = imagem
 }
 
 
